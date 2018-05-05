@@ -1,6 +1,3 @@
-server:
-  port: 8090
-
-#自定义的属性
-my:
-  name: willem
+spring:
+  profiles:
+    active: @profileActive@

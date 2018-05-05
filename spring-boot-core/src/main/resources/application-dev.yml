@@ -1,0 +1,6 @@
+server:
+  port: 8090
+
+#自定义的属性
+my:
+  name: willem,from dev
