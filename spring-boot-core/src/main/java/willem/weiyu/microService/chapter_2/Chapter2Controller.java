@@ -1,6 +1,6 @@
-package com.weiyu.microService.chapter_2;
+package willem.weiyu.microService.chapter_2;
 
-import com.weiyu.microService.chapter_2.properties.MyProperties;
+import willem.weiyu.microService.chapter_2.properties.MyProperties;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.core.env.Environment;

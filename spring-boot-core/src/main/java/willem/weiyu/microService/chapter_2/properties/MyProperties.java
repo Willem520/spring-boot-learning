@@ -1,4 +1,4 @@
-package com.weiyu.microService.chapter_2.properties;
+package willem.weiyu.microService.chapter_2.properties;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
