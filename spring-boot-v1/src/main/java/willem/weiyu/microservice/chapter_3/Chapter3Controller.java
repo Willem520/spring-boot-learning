@@ -1,6 +1,5 @@
-package willem.weiyu.microService.chapter_4;
+package willem.weiyu.microservice.chapter_3;
 
-import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -9,15 +8,14 @@ import org.springframework.web.bind.annotation.RestController;
 /**
  * @Author weiyu1990520@163.com
  * @Description
- * @Date 11:45 2018/06/30
+ * @Date 15:01 2018/5/5
  */
 @RestController
-@RequestMapping(value = "/chapter_4")
-public class Chapter4Controller {
+@RequestMapping(value = "/v1/chapter_3")
+public class Chapter3Controller {
     @Value("${my.name}")
     private String name;
 
-    @ApiOperation(value = "获取配置文件中的属性值")
     @RequestMapping(value = "/hello",method = RequestMethod.GET)
     public String hello(){
         return "hello,my name is "+name;

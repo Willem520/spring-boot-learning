@@ -1,5 +1,5 @@
 server:
-  port: 8090
+  port: 9080
 
 #自定义的属性
 my:

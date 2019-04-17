@@ -1,6 +1,6 @@
-package willem.weiyu.microService.chapter_2;
+package willem.weiyu.microservice.chapter_2;
 
-import willem.weiyu.microService.chapter_2.properties.MyProperties;
+import willem.weiyu.microservice.chapter_2.properties.MyProperties;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.core.env.Environment;
@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @Date 22:41 2018/3/31
  */
 @RestController
-@RequestMapping(value = "/chapter_2")
+@RequestMapping(value = "/v1/chapter_2")
 public class Chapter2Controller {
     @Value("${my.name}")
     private String name;

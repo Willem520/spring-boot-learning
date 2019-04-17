@@ -1,17 +1,18 @@
-#Spring-boot-learning
+#spring-boot-learning
 
-1.chapter_1
+## spring-boot-v1(基于1.5.10.RELEASE)
+1. chapter_1
+    - SpringBoot初识
 
-SpringBoot初识
+2. chapter_2
+    - Springboot配置文件
 
-2.chapter_2
+3. chapter_3
+    - Maven多环境配置
 
-Springboot配置文件
+4. chapter_4
+    - Swagger2的基本使用 
 
-3.chapter_3
-
-Maven多环境配置
-
-4.chapter_4
-
-Swagger2的基本使用 
+## spring-boot-v1(基于2.1.4.RELEASE)
+1. chapter_1
+    - flux初识

@@ -1,4 +1,4 @@
-package willem.weiyu.microService.config.swagger2;
+package willem.weiyu.microservice.config.swagger2;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

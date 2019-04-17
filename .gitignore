@@ -25,5 +25,7 @@ hs_err_pid*
 
 /.idea/
 /spring-boot-learning.iml
-/spring-boot-core/spring-boot-core.iml
-/spring-boot-core/target/
+/spring-boot-v1/spring-boot-v1.iml
+/spring-boot-v1/target/
+/spring-boot-v2/target/
+/spring-boot-v2/spring-boot-v2.iml
