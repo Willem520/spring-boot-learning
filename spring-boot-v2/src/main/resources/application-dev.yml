@@ -1,6 +1,2 @@
 server:
   port: 9080
-
-#自定义的属性
-my:
-  name: willem,from dev
